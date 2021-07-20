@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react'
-import SearchBar, { placeHolder } from 'features/SearchBar'
+import SearchBar, { placeHolder } from 'common/SearchBar/SearchBar'
 
 test('change value on input change', () => {
   const onChange = jest.fn()

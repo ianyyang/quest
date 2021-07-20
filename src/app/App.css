@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic');
+
 .App {
-  text-align: center
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #1C1C28;
+  color: white;
+  font-family: 'Didact Gothic', regular;
 }
