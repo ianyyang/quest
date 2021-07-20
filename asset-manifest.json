@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quest/static/css/main.52cb7f8d.chunk.css",
+    "main.css": "/quest/static/css/main.071ddc0e.chunk.css",
     "main.js": "/quest/static/js/main.90ed816b.chunk.js",
     "main.js.map": "/quest/static/js/main.90ed816b.chunk.js.map",
     "runtime-main.js": "/quest/static/js/runtime-main.4ecb5877.js",
@@ -10,13 +10,14 @@
     "static/js/3.c6d20756.chunk.js": "/quest/static/js/3.c6d20756.chunk.js",
     "static/js/3.c6d20756.chunk.js.map": "/quest/static/js/3.c6d20756.chunk.js.map",
     "index.html": "/quest/index.html",
-    "static/css/main.52cb7f8d.chunk.css.map": "/quest/static/css/main.52cb7f8d.chunk.css.map",
-    "static/js/2.bc2a9f90.chunk.js.LICENSE.txt": "/quest/static/js/2.bc2a9f90.chunk.js.LICENSE.txt"
+    "static/css/main.071ddc0e.chunk.css.map": "/quest/static/css/main.071ddc0e.chunk.css.map",
+    "static/js/2.bc2a9f90.chunk.js.LICENSE.txt": "/quest/static/js/2.bc2a9f90.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/quest/static/media/FUTURAL.1c657702.TTF"
   },
   "entrypoints": [
     "static/js/runtime-main.4ecb5877.js",
     "static/js/2.bc2a9f90.chunk.js",
-    "static/css/main.52cb7f8d.chunk.css",
+    "static/css/main.071ddc0e.chunk.css",
     "static/js/main.90ed816b.chunk.js"
   ]
 }
