@@ -31,7 +31,11 @@
   },
   "jest": {
     "collectCoverageFrom": [
-      "src/common/**.tsx"
+      "<rootDir>/src/common/**.tsx",
+      "<rootDir>/src/features/**.tsx"
+    ],
+    "testMatch": [
+      "<rootDir>/src/tests/*.(test).tsx"
     ]
   },
   "browserslist": {
