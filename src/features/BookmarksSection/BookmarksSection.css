@@ -1,0 +1,11 @@
+.bookmarks-section-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 12.5px;
+    padding: 50px;
+}
+
+.bookmarks-section-add-icon {
+    vertical-align: middle;
+    margin: auto;
+}
