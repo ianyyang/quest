@@ -1,6 +1,8 @@
 import { useState } from 'react'
+import SearchIcon from '@material-ui/icons/Search'
+import './SearchBar.css'
 
-export const placeHolder = "Search Here..."
+export const placeHolder = "SEARCH HERE..."
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState<string>("")
@@ -15,9 +17,14 @@ const SearchBar = () => {
   }
 
   return (
-    <div>
-      <form onSubmit={onSubmitHandler}>
+    <div className="search-bar-container">
+      <form
+        className="search-bar-form"
+        onSubmit={onSubmitHandler}
+      >
+        <SearchIcon className="search-bar-icon"/>
         <input
+          className="search-bar-input"
           type="text"
           placeholder={placeHolder}
           value={searchInput}

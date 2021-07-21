@@ -1,0 +1,27 @@
+.search-bar-container {
+    padding: 82.5px;
+}
+
+.search-bar-form {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.search-bar-icon {
+    vertical-align: middle;
+    padding: 5px 7.5px;
+}
+
+.search-bar-input {
+    width: 48.25vw;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Futura';
+    letter-spacing: 1px;
+}
+
+::placeholder {
+    color: white;
+}
