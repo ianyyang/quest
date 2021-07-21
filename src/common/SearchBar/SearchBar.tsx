@@ -4,23 +4,21 @@ import './SearchBar.css'
 
 export const placeHolder = "SEARCH HERE..."
 
-const SearchBar = () => {
+const SearchBar = ({onSubmitHandler}: any) => {
   const [searchInput, setSearchInput] = useState<string>("")
 
   const onChangeHandler = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchInput(event.target.value)
   }
 
-  const onSubmitHandler = (event: React.FormEvent<EventTarget>) => {
-    console.log('onSubmit: ' + searchInput)
-    event.preventDefault()
-  }
-
   return (
     <div className="search-bar-container">
       <form
         className="search-bar-form"
-        onSubmit={onSubmitHandler}
+        onSubmit={(event) => {
+          onSubmitHandler(searchInput)
+          event.preventDefault()
+        }}
       >
         <SearchIcon className="search-bar-icon"/>
         <input

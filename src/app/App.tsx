@@ -1,5 +1,5 @@
 import TitleHeader from 'features/TitleHeader/TitleHeader'
-import SearchBar from 'common/SearchBar/SearchBar'
+import MainSearchBar from 'features/MainSearchBar/MainSearchBar'
 import Bookmarks from 'features/BookmarksSection/BookmarksSection'
 import OptionsMenu from 'features/OptionsMenu/OptionsMenu'
 import './App.css'
@@ -8,7 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <TitleHeader/>
-      <SearchBar/>
+      <MainSearchBar/>
       <Bookmarks/>
       <OptionsMenu/>
     </div>
