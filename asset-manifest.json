@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quest/static/css/main.6ff85e09.chunk.css",
+    "main.css": "/quest/static/css/main.03d68c7d.chunk.css",
     "main.js": "/quest/static/js/main.f8e5de3d.chunk.js",
     "main.js.map": "/quest/static/js/main.f8e5de3d.chunk.js.map",
     "runtime-main.js": "/quest/static/js/runtime-main.64269326.js",
@@ -10,14 +10,14 @@
     "static/js/3.b2e1ba93.chunk.js": "/quest/static/js/3.b2e1ba93.chunk.js",
     "static/js/3.b2e1ba93.chunk.js.map": "/quest/static/js/3.b2e1ba93.chunk.js.map",
     "index.html": "/quest/index.html",
-    "static/css/main.6ff85e09.chunk.css.map": "/quest/static/css/main.6ff85e09.chunk.css.map",
+    "static/css/main.03d68c7d.chunk.css.map": "/quest/static/css/main.03d68c7d.chunk.css.map",
     "static/js/2.590efa65.chunk.js.LICENSE.txt": "/quest/static/js/2.590efa65.chunk.js.LICENSE.txt",
     "static/media/index.css": "/quest/static/media/FUTURAL.1c657702.TTF"
   },
   "entrypoints": [
     "static/js/runtime-main.64269326.js",
     "static/js/2.590efa65.chunk.js",
-    "static/css/main.6ff85e09.chunk.css",
+    "static/css/main.03d68c7d.chunk.css",
     "static/js/main.f8e5de3d.chunk.js"
   ]
 }
