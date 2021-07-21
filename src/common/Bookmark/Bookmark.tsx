@@ -1,10 +1,13 @@
+import RedditIcon from '@material-ui/icons/Reddit'
+import './Bookmark.css'
+
 const Bookmark = () => {
     return (
       <div className="bookmark-container">
-        Hello
+        <RedditIcon fontSize={'large'}/>
       </div>
     )
   }
   
-  export default Bookmark
+export default Bookmark
   
