@@ -1,0 +1,10 @@
+.options-menu-minimize-icon {
+    vertical-align: middle;
+}
+
+.options-menu-hr {
+    /* match width of SearchBar */
+    width: calc(48.25vw + 44px);
+    border: none;
+    border-top: 1px solid white;
+}
