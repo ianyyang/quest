@@ -1,10 +1,31 @@
-.options-menu-minimize-icon {
-    vertical-align: middle;
+details>summary::-webkit-details-marker {
+    display: none;
 }
 
-.options-menu-hr {
+details>summary::before {
+    content: '__ ';
+}
+
+details[open]>summary::before {
+    content: '__ ';
+}
+
+details[open]>summary {
+    /* TODO: details border-bottom + summary border clashes with design (design has 1 line only)*/
+    margin-bottom: 0.5rem;
+}
+
+.options-menu-header {
     /* match width of SearchBar */
     width: calc(48.25vw + 44px);
-    border: none;
-    border-top: 1px solid white;
+    list-style-type: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.options-menu-menu {
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
 }

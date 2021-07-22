@@ -1,13 +1,15 @@
-import MinimizeIcon from '@material-ui/icons/Minimize'
 import './OptionsMenu.css'
 
 const OptionsMenu = () => {
   return (
-    <div className="options-menu-container">
-      <MinimizeIcon className="options-menu-minimize-icon"/>
-      OPTIONS
-      <hr className="options-menu-hr"/>
-    </div>
+    <details className="options-menu-container">
+      <summary className="options-menu-header">
+        OPTIONS
+      </summary>
+      <div className="options-menu-menu">
+        TODO: Options menu components (need to do research to determine functionality)
+      </div>
+    </details>
   )
 }
 
